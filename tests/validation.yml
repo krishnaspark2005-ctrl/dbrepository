@@ -1,0 +1,7 @@
+models:
+  - name: t_cust_info
+    columns:
+      - name: CUSTOMER_ID
+        tests:
+          - not_null
+          - unique

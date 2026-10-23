@@ -5,4 +5,6 @@ sources:
     tables:
       - name: customers
       - name: orders
-      - name: payment      
+      - name: payment 
+      - name: customer_info 
+      - name: s_emp    
