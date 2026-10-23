@@ -6,4 +6,5 @@ sources:
       - name: customers
       - name: orders
       - name: payment 
-      - name: customer_info     
+      - name: customer_info 
+      - name: s_emp    
