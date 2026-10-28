@@ -1,0 +1,1 @@
+select * From bronze.orders where status='{{ var("status","completed")}}'
