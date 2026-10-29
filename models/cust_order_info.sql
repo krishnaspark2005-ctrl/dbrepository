@@ -4,19 +4,10 @@
     )
 }}
 with customers as (
-select
-customer_id as customer_id,
-first_name,
-last_name
-from {{ source('s1', 'customers') }}
+select * from {{ ref('eph_customers') }}
 ),
 orders as (
-select
-order_id as order_id,
-customer_id as customer_id,
-order_date,
-status
-from {{ source('s1', 'orders') }}
+select * from {{ ref('eph_orders') }}
 ),
 customer_orders as (
 select
